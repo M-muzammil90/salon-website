@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hair Care - Mojay Beauty Salon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/Hair-skin.css">
+</head>
+<body>
+   <!-- Navigation Bar (unchanged) -->
+   <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="logo">
+        <i class="fas fa-spa logo-icon"></i>
+       Hair Care
+      </a>
+      <div class="nav-links">
+        <div class="nav-item">
+          <a href="index.html" class="nav-link">
+           Home
+          </a>
+        
+        </div>
+        <div class="nav-item">
+          <a href="about.html" class="nav-link">
+           About Us
+            
+          </a>
+         
+        </div>
+        
+        <div class="nav-item">
+          <a href="#" class="nav-link">
+           Product
+            <i class="fas fa-chevron-down" style="font-size: 0.7rem;"></i>
+          </a>
+          <div class="dropdown">
+            <a href="Hair_skin.html" class="dropdown-link">Hair Skin</a>
+            <a href="Makeup.html" class="dropdown-link">Makeup</a>
+            <a href="Nail Products.html" class="dropdown-link">Nail Products</a>
+            <a href="skin_care.html" class="dropdown-link">Skin Care</a>
+          </div>
+        </div>
+       
+        <div class="nav-item">
+          <a href="Servies.html" class="nav-link">Services</a>
+        </div>
+      </div>
+      <div class="nav-cta">
+        <a href="contact.html" class="btnn btn-secondary">
+          <i class="fas fa-user"></i> Contact
+        </a>
+    </div>
+  </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="page-header-content">
+                <h1>Hair Care</h1>
+                <ul class="breadcrumb">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="hair-care.html">Hair Care</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hair Services -->
+    <section class="hair-services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Hair Services</h2>
+            </div>
+            
+            <div class="services-tabs">
+                <button class="tab-btn active" data-category="all">All Services</button>
+                <button class="tab-btn" data-category="cutting">Cutting</button>
+                <button class="tab-btn" data-category="coloring">Coloring</button>
+                <button class="tab-btn" data-category="styling">Styling</button>
+                <button class="tab-btn" data-category="treatment">Treatments</button>
+            </div>
+
+            <div class="services-content">
+                <!-- Cutting Services -->
+                <div class="service-item" data-category="cutting">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" alt="Hair Cutting">
+                    </div>
+                    <div class="service-info">
+                        <h3>Precision Haircut</h3>
+                        <p>Expert haircut tailored to your face shape and personal style, followed by a blow-dry and finish.</p>
+                        <div class="service-meta">
+                            <div class="service-price">From $45</div>
+                            <a href="#" class="btn">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-item" data-category="cutting">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=686&q=80" alt="Bang Trim">
+                    </div>
+                    <div class="service-info">
+                        <h3>Bang Trim</h3>
+                        <p>Quick and precise bang trimming to maintain your style between full haircuts.</p>
+                        <div class="service-meta">
+                            <div class="service-price">$15</div>
+                            <a href="#" class="btn">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Coloring Services -->
+                <div class="service-item" data-category="coloring">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1519699047748-de8e457a634e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80" alt="Full Color">
+                    </div>
+                    <div class="service-info">
+                        <h3>Full Color</h3>
+                        <p>Complete hair coloring service with premium products for vibrant, long-lasting results.</p>
+                        <div class="service-meta">
+                            <div class="service-price">From $85</div>
+                            <a href="#" class="btn">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-item" data-category="coloring">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1530669244764-0909211cd8e8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="Highlights">
+                    </div>
+                    <div class="service-info">
+                        <h3>Highlights & Lowlights</h3>
+                        <p>Customized highlighting service to add dimension and depth to your hair.</p>
+                        <div class="service-meta">
+                            <div class="service-price">From $75</div>
+                            <a href="#" class="btn">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Styling Services -->
+                <div class="service-item" data-category="styling">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" alt="Blowout">
+                    </div>
+                    <div class="service-info">
+                        <h3>Blowout & Style</h3>
+                        <p>Professional blowout and styling for a polished look for any occasion.</p>
+                        <div class="service-meta">
+                            <div class="service-price">From $35</div>
+                            <a href="#" class="btn">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-item" data-category="styling">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1559599076-9c61cc8a2be3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80" alt="Updo">
+                    </div>
+                    <div class="service-info">
+                        <h3>Special Occasion Updo</h3>
+                        <p>Elegant updo styling for weddings, proms, and other special events.</p>
+                        <div class="service-meta">
+                            <div class="service-price">From $65</div>
+                            <a href="#" class="btn">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Treatment Services -->
+                <div class="service-item" data-category="treatment">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" alt="Hair Treatment">
+                    </div>
+                    <div class="service-info">
+                        <h3>Deep Conditioning Treatment</h3>
+                        <p>Intensive conditioning treatment to restore moisture and repair damaged hair.</p>
+                        <div class="service-meta">
+                            <div class="service-price">$40</div>
+                            <a href="#" class="btn">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-item" data-category="treatment">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1593508512255-86ab42a8e620?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1186&q=80" alt="Scalp Treatment">
+                    </div>
+                    <div class="service-info">
+                        <h3>Scalp Treatment</h3>
+                        <p>Revitalizing scalp treatment to promote healthy hair growth and relieve dryness.</p>
+                        <div class="service-meta">
+                            <div class="service-price">$50</div>
+                            <a href="#" class="btn">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hair Products -->
+    <section class="hair-products">
+        <div class="container">
+            <div class="section-title">
+                <h2>Hair Care Products</h2>
+            </div>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Luxury Shampoo">
+                    </div>
+                    <div class="product-info">
+                        <h3>Luxury Hydrating Shampoo</h3>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(128)</span>
+                        </div>
+                        <p>Nourishing shampoo with argan oil and keratin for shiny, healthy hair.</p>
+                        <div class="product-meta">
+                            <div class="product-price">$24.99</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1593508512255-86ab42a8e620?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1186&q=80" alt="Conditioner">
+                    </div>
+                    <div class="product-info">
+                        <h3>Deep Repair Conditioner</h3>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(96)</span>
+                        </div>
+                        <p>Intensive conditioner that repairs damaged hair and prevents breakage.</p>
+                        <div class="product-meta">
+                            <div class="product-price">$22.99</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Hair Serum">
+                    </div>
+                    <div class="product-info">
+                        <h3>Argan Oil Hair Serum</h3>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>(87)</span>
+                        </div>
+                        <p>Lightweight serum that tames frizz and adds shine without greasy residue.</p>
+                        <div class="product-meta">
+                            <div class="product-price">$29.99</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1595429072085-8f4d11a77fda?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Hair Mask">
+                    </div>
+                    <div class="product-info">
+                        <h3>Intensive Repair Hair Mask</h3>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(112)</span>
+                        </div>
+                        <p>Weekly treatment mask that deeply nourishes and repairs damaged hair.</p>
+                        <div class="product-meta">
+                            <div class="product-price">$34.99</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hair Types -->
+    <section class="hair-types">
+        <div class="container">
+            <div class="section-title">
+                <h2>Hair Type Solutions</h2>
+            </div>
+            <div class="types-container">
+                <div class="type-card">
+                    <div class="type-icon">
+                        <i class="fas fa-wind"></i>
+                    </div>
+                    <h3>Fine Hair</h3>
+                    <p>Specialized treatments and cuts that add volume and body to fine hair without weighing it down.</p>
+                </div>
+                <div class="type-card">
+                    <div class="type-icon">
+                        <i class="fas fa-circle"></i>
+                    </div>
+                    <h3>Curly Hair</h3>
+                    <p>Expert care for curly hair types, focusing on hydration and defining natural curl patterns.</p>
+                </div>
+                <div class="type-card">
+                    <div class="type-icon">
+                        <i class="fas fa-sun"></i>
+                    </div>
+                    <h3>Damaged Hair</h3>
+                    <p>Restorative treatments for hair damaged by heat, coloring, or environmental factors.</p>
+                </div>
+                <div class="type-card">
+                    <div class="type-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Color-Treated Hair</h3>
+                    <p>Specialized care to maintain vibrancy and health of color-treated hair.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stylists Section -->
+    <section class="stylists">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Hair Stylists</h2>
+            </div>
+            <div class="stylists-grid">
+                <div class="stylist-card">
+                    <div class="stylist-img">
+                        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="Jessica Miller">
+                    </div>
+                    <div class="stylist-info">
+                        <h3>Jessica Miller</h3>
+                        <p class="stylist-role">Master Colorist</p>
+                        <p>Specializes in balayage, ombre, and creative color techniques with 10 years of experience.</p>
+                    </div>
+                </div>
+                <div class="stylist-card">
+                    <div class="stylist-img">
+                        <img src="https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="David Chen">
+                    </div>
+                    <div class="stylist-info">
+                        <h3>David Chen</h3>
+                        <p class="stylist-role">Cutting Specialist</p>
+                        <p>Expert in precision cutting and personalized hairstyles that enhance facial features.</p>
+                    </div>
+                </div>
+                <div class="stylist-card">
+                    <div class="stylist-img">
+                        <img src="https://images.unsplash.com/photo-1580618672591-eb180b1a973f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80" alt="Sophia Rodriguez">
+                    </div>
+                    <div class="stylist-info">
+                        <h3>Sophia Rodriguez</h3>
+                        <p class="stylist-role">Texture Expert</p>
+                        <p>Specializes in curly and textured hair, with advanced training in DevaCut techniques.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Hair Care Process</h2>
+            </div>
+            <div class="process-steps">
+                <div class="process-step">
+                    <div class="step-number">1</div>
+                    <h3>Consultation</h3>
+                    <p>We begin with a detailed consultation to understand your hair goals, concerns, and lifestyle.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">2</div>
+                    <h3>Analysis</h3>
+                    <p>We analyze your hair type, texture, and condition to recommend the best treatments and services.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">3</div>
+                    <h3>Treatment</h3>
+                    <p>Our experts perform the services with precision and care using premium products.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">4</div>
+                    <h3>Aftercare</h3>
+                    <p>We provide personalized advice on maintaining your style and recommend products for home care.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-title">
+                <h2>Hair Care Testimonials</h2>
+            </div>
+            <div class="testimonials-container">
+                <div class="testimonial">
+                    <p class="testimonial-text">"I've been coming to Mojay for years. Their hair coloring service is exceptional - I always get compliments on my hair color. The stylists really know how to bring out the best in your features!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-img">
+                            <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Sarah Johnson">
+                        </div>
+                        <div class="author-info">
+                            <h4>Sarah Johnson</h4>
+                            <p>Regular Client</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <p class="testimonial-text">"After years of damaging my hair with bleach, David worked miracles with my hair. It's now healthier than ever and the color is perfect. I wouldn't trust anyone else with my hair!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-img">
+                            <img src="https://randomuser.me/api/portraits/women/43.jpg" alt="Emily Roberts">
+                        </div>
+                        <div class="author-info">
+                            <h4>Emily Roberts</h4>
+                            <p>Color Client</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Ready for a Hair Transformation?</h2>
+            <p>Book your appointment today and let our hair experts help you achieve the beautiful hair you've always wanted.</p>
+            <a href="contact.html" class="btn">Book an Appointment</a>
+        </div>
+    </section>
+
+        <!-- section-footer -->
+     <footer class="advanced-footer">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#" class="logo" >
+              <i class="fas fa-spa logo-icon"></i>
+               Hair Care
+          </a>
+          <p>HairCare brings you the finest products and tips to keep your hair strong, shiny, and stylish every day.</p>
+        </div>
+    
+        <div class="footer-links">
+          <div class="footer-column">
+            <h4>Products</h4>
+            <ul>
+              <li><a href="#">Shampoos</a></li>
+              <li><a href="#">Conditioners</a></li>
+              <li><a href="#">Hair Oils</a></li>
+              <li><a href="#">Styling Tools</a></li>
+            </ul>
+          </div>
+    
+          <div class="footer-column">
+            <h4>Company</h4>
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Press</a></li>
+              <li><a href="#">Affiliate</a></li>
+            </ul>
+          </div>
+    
+          <div class="footer-column">
+            <h4>Support</h4>
+            <ul>
+              <li><a href="#">Help Center</a></li>
+              <li><a href="#">Shipping Info</a></li>
+              <li><a href="#">Returns</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+    
+        <div class="footer-newsletter">
+          <h4>Join Our Newsletter</h4>
+          <p>Get the latest hair care tips and exclusive offers in your inbox.</p>
+          <form class="newsletter-form">
+            <input type="email" placeholder="Your email address">
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    
+      <div class="footer-bottom">
+        <p>&copy; 2025 HairCare. All rights reserved.</p>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </footer>
+    
+    <script src="assets/js/Hair-skin.js"></script>
+</body>
+</html>

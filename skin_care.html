@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skin Care - Mojay Beauty Salon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/Skin-care.css">
+</head>
+<body>
+   <!-- Navigation Bar (unchanged) -->
+   <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="logo">
+        <i class="fas fa-spa logo-icon"></i>
+       Hair Care
+      </a>
+      <div class="nav-links">
+        <div class="nav-item">
+          <a href="index.html" class="nav-link">
+           Home
+          </a>
+        
+        </div>
+        <div class="nav-item">
+          <a href="about.html" class="nav-link">
+           About Us
+            
+          </a>
+         
+        </div>
+        
+        <div class="nav-item">
+          <a href="#" class="nav-link">
+           Product
+            <i class="fas fa-chevron-down" style="font-size: 0.7rem;"></i>
+          </a>
+          <div class="dropdown">
+            <a href="Hair_skin.html" class="dropdown-link">Hair Skin</a>
+            <a href="Makeup.html" class="dropdown-link">Makeup</a>
+            <a href="Nail Products.html" class="dropdown-link">Nail Products</a>
+            <a href="skin_care.html" class="dropdown-link">Skin Care</a>
+          </div>
+        </div>
+       
+        <div class="nav-item">
+          <a href="Servies.html" class="nav-link">Services</a>
+        </div>
+      </div>
+      <div class="nav-cta">
+        <a href="contact.html" class="btnn btn-secondary">
+          <i class="fas fa-user"></i> Contact
+        </a>
+    </div>
+  </nav>
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="page-header-content">
+                <h1>Skin Care</h1>
+                <ul class="breadcrumb">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="skin-care.html">Skin Care</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skin Services -->
+    <section class="skin-services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Skin Services</h2>
+            </div>
+            
+            <div class="services-tabs">
+                <button class="tab-btn active" data-category="all">All Services</button>
+                <button class="tab-btn" data-category="facial">Facials</button>
+                <button class="tab-btn" data-category="treatment">Treatments</button>
+                <button class="tab-btn" data-category="rejuvenation">Rejuvenation</button>
+            </div>
+
+            <div class="services-content">
+                <!-- Facial Services -->
+                <div class="service-item" data-category="facial">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Luxury Facial">
+                    </div>
+                    <div class="service-info">
+                        <h3>Signature Luxury Facial</h3>
+                        <p>Our signature facial includes deep cleansing, exfoliation, extraction, massage, and customized mask to address your skin concerns.</p>
+                        <div class="service-meta">
+                            <div class="service-price">From $95</div>
+                            <a href="#" class="btn">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-item" data-category="facial">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1556228720-195a672e8a03?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="Anti-Aging Facial">
+                    </div>
+                    <div class="service-info">
+                        <h3>Anti-Aging Facial</h3>
+                        <p>Specially formulated to reduce the appearance of fine lines and wrinkles while improving skin elasticity and firmness.</p>
+                        <div class="service-meta">
+                            <div class="service-price">From $120</div>
+                            <a href="#" class="btn">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Treatment Services -->
+                <div class="service-item" data-category="treatment">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1595273670150-bd0c3c392e46?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1203&q=80" alt="Acne Treatment">
+                    </div>
+                    <div class="service-info">
+                        <h3>Acne Treatment</h3>
+                        <p>Deep cleansing treatment that targets acne-causing bacteria, reduces inflammation, and prevents future breakouts.</p>
+                        <div class="service-meta">
+                            <div class="service-price">From $85</div>
+                            <a href="#" class="btn">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-item" data-category="treatment">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="Hydrating Treatment">
+                    </div>
+                    <div class="service-info">
+                        <h3>Hydra-Fusion Treatment</h3>
+                        <p>Intensive hydration treatment that replenishes moisture levels and restores the skin's natural barrier function.</p>
+                        <div class="service-meta">
+                            <div class="service-price">From $110</div>
+                            <a href="#" class="btn">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Rejuvenation Services -->
+                <div class="service-item" data-category="rejuvenation">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1575305515096-575f74a3d258?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Chemical Peel">
+                    </div>
+                    <div class="service-info">
+                        <h3>Chemical Peel</h3>
+                        <p>Rejuvenating treatment that exfoliates the skin to improve texture, tone, and appearance of fine lines and sun damage.</p>
+                        <div class="service-meta">
+                            <div class="service-price">From $150</div>
+                            <a href="#" class="btn">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-item" data-category="rejuvenation">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" alt="Microdermabrasion">
+                    </div>
+                    <div class="service-info">
+                        <h3>Microdermabrasion</h3>
+                        <p>Non-invasive exfoliation treatment that removes dead skin cells to reveal smoother, more radiant skin.</p>
+                        <div class="service-meta">
+                            <div class="service-price">From $130</div>
+                            <a href="#" class="btn">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skin Products -->
+    <section class="skin-products">
+        <div class="container">
+            <div class="section-title">
+                <h2>Skin Care Products</h2>
+            </div>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-badge">Bestseller</div>
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1571781926291-c477ebfd024b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=944&q=80" alt="Anti-Aging Cream">
+                    </div>
+                    <div class="product-info">
+                        <h3>Age-Defying Night Cream</h3>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(142)</span>
+                        </div>
+                        <p>Luxury night cream with retinol and hyaluronic acid for youthful, radiant skin.</p>
+                        <div class="product-meta">
+                            <div class="product-price">$49.99</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1556228720-195a672e8a03?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="Vitamin C Serum">
+                    </div>
+                    <div class="product-info">
+                        <h3>Vitamin C Brightening Serum</h3>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(189)</span>
+                        </div>
+                        <p>Powerful serum that brightens skin and reduces appearance of dark spots.</p>
+                        <div class="product-meta">
+                            <div class="product-price">$39.99</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-badge">New</div>
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1595429072085-8f4d11a77fda?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Hyaluronic Acid">
+                    </div>
+                    <div class="product-info">
+                        <h3>Hyaluronic Acid Booster</h3>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>(96)</span>
+                        </div>
+                        <p>Intensive hydrating formula that plumps skin and reduces fine lines.</p>
+                        <div class="product-meta">
+                            <div class="product-price">$42.99</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Sunscreen">
+                    </div>
+                    <div class="product-info">
+                        <h3>Daily Defense Sunscreen</h3>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(205)</span>
+                        </div>
+                        <p>Broad-spectrum SPF 50 protection that's lightweight and non-greasy.</p>
+                        <div class="product-meta">
+                            <div class="product-price">$32.99</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skin Types -->
+    <section class="skin-types">
+        <div class="container">
+            <div class="section-title">
+                <h2>Skin Type Solutions</h2>
+            </div>
+            <div class="types-container">
+                <div class="type-card">
+                    <div class="type-icon">
+                        <i class="fas fa-tint"></i>
+                    </div>
+                    <h3>Dry Skin</h3>
+                    <p>Specialized treatments and products that provide intense hydration and restore skin's moisture barrier.</p>
+                </div>
+                <div class="type-card">
+                    <div class="type-icon">
+                        <i class="fas fa-oil-can"></i>
+                    </div>
+                    <h3>Oily Skin</h3>
+                    <p>Solutions that balance oil production, minimize pores, and prevent breakouts without over-drying.</p>
+                </div>
+                <div class="type-card">
+                    <div class="type-icon">
+                        <i class="fas fa-allergies"></i>
+                    </div>
+                    <h3>Sensitive Skin</h3>
+                    <p>Gentle, calming treatments and products designed for reactive skin types with minimal irritation.</p>
+                </div>
+                <div class="type-card">
+                    <div class="type-icon">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <h3>Combination Skin</h3>
+                    <p>Customized approaches that address both oily and dry areas for balanced, healthy-looking skin.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Special Treatments -->
+    <section class="special-treatments">
+        <div class="container">
+            <div class="section-title">
+                <h2>Specialized Treatments</h2>
+            </div>
+            <div class="treatments-container">
+                <div class="treatment-card">
+                    <div class="treatment-img">
+                        <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="LED Therapy">
+                    </div>
+                    <div class="treatment-info">
+                        <h3>LED Light Therapy</h3>
+                        <p>Non-invasive treatment that uses different wavelengths of light to address various skin concerns including acne, inflammation, and aging.</p>
+                        <a href="#" class="btn">Learn More</a>
+                    </div>
+                </div>
+                <div class="treatment-card">
+                    <div class="treatment-img">
+                        <img src="https://images.unsplash.com/photo-1575305515096-575f74a3d258?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Microcurrent">
+                    </div>
+                    <div class="treatment-info">
+                        <h3>Microcurrent Facial</h3>
+                        <p>Natural facelift alternative that uses low-level electrical currents to tone facial muscles and improve contour.</p>
+                        <a href="#" class="btn">Learn More</a>
+                    </div>
+                </div>
+                <div class="treatment-card">
+                    <div class="treatment-img">
+                        <img src="https://images.unsplash.com/photo-1595273670150-bd0c3c392e46?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1203&q=80" alt="Oxygen Facial">
+                    </div>
+                    <div class="treatment-info">
+                        <h3>Oxygen Infusion</h3>
+                        <p>Treatment that delivers oxygen, vitamins, and nutrients deep into the skin for instant radiance and hydration.</p>
+                        <a href="#" class="btn">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Specialists Section -->
+    <section class="specialists">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Skin Specialists</h2>
+            </div>
+            <div class="specialists-grid">
+                <div class="specialist-card">
+                    <div class="specialist-img">
+                        <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Sophia Williams">
+                    </div>
+                    <div class="specialist-info">
+                        <h3>Sophia Williams</h3>
+                        <p class="specialist-role">Master Esthetician</p>
+                        <p>Specializes in advanced facial treatments and chemical peels with over 12 years of experience.</p>
+                    </div>
+                </div>
+                <div class="specialist-card">
+                    <div class="specialist-img">
+                        <img src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="Michael Zhang">
+                    </div>
+                    <div class="specialist-info">
+                        <h3>Michael Zhang</h3>
+                        <p class="specialist-role">Skin Health Expert</p>
+                        <p>Expert in acne treatments and corrective skincare with a focus on clinical approaches.</p>
+                    </div>
+                </div>
+                <div class="specialist-card">
+                    <div class="specialist-img">
+                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=776&q=80" alt="Emma Rodriguez">
+                    </div>
+                    <div class="specialist-info">
+                        <h3>Emma Rodriguez</h3>
+                        <p class="specialist-role">Anti-Aging Specialist</p>
+                        <p>Focuses on rejuvenation treatments and preventive aging approaches for all skin types.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Skin Care Process</h2>
+            </div>
+            <div class="process-steps">
+                <div class="process-step">
+                    <div class="step-number">1</div>
+                    <h3>Consultation</h3>
+                    <p>We begin with a detailed skin analysis to understand your concerns, goals, and skin type.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">2</div>
+                    <h3>Customization</h3>
+                    <p>We create a personalized treatment plan tailored to your specific skin needs and concerns.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">3</div>
+                    <h3>Treatment</h3>
+                    <p>Our experts perform the services with precision using premium products and advanced techniques.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">4</div>
+                    <h3>Home Care Plan</h3>
+                    <p>We provide personalized advice and product recommendations to maintain your results at home.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-title">
+                <h2>Skin Care Testimonials</h2>
+            </div>
+            <div class="testimonials-container">
+                <div class="testimonial">
+                    <p class="testimonial-text">"I've struggled with acne for years, but after just a few treatments at Mojay, my skin has completely transformed. The estheticians are knowledgeable and the products are amazing!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-img">
+                            <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Jessica Taylor">
+                        </div>
+                        <div class="author-info">
+                            <h4>Jessica Taylor</h4>
+                            <p>Acne Treatment Client</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <p class="testimonial-text">"The anti-aging facial is worth every penny! My skin has never looked better. I've noticed a significant reduction in my fine lines and my complexion is so much brighter."</p>
+                    <div class="testimonial-author">
+                        <div class="author-img">
+                            <img src="https://randomuser.me/api/portraits/women/43.jpg" alt="Maria Rodriguez">
+                        </div>
+                        <div class="author-info">
+                            <h4>Maria Rodriguez</h4>
+                            <p>Facial Client</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Ready for Radiant Skin?</h2>
+            <p>Book your consultation today and let our skin experts help you achieve the healthy, glowing complexion you deserve.</p>
+            <a href="contact.html" class="btn">Book a Consultation</a>
+        </div>
+    </section>
+
+    <!-- section-footer -->
+     <footer class="advanced-footer">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#" class="logo" >
+              <i class="fas fa-spa logo-icon"></i>
+               Hair Care
+          </a>
+          <p>HairCare brings you the finest products and tips to keep your hair strong, shiny, and stylish every day.</p>
+        </div>
+    
+        <div class="footer-links">
+          <div class="footer-column">
+            <h4>Products</h4>
+            <ul>
+              <li><a href="#">Shampoos</a></li>
+              <li><a href="#">Conditioners</a></li>
+              <li><a href="#">Hair Oils</a></li>
+              <li><a href="#">Styling Tools</a></li>
+            </ul>
+          </div>
+    
+          <div class="footer-column">
+            <h4>Company</h4>
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Press</a></li>
+              <li><a href="#">Affiliate</a></li>
+            </ul>
+          </div>
+    
+          <div class="footer-column">
+            <h4>Support</h4>
+            <ul>
+              <li><a href="#">Help Center</a></li>
+              <li><a href="#">Shipping Info</a></li>
+              <li><a href="#">Returns</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+    
+        <div class="footer-newsletter">
+          <h4>Join Our Newsletter</h4>
+          <p>Get the latest hair care tips and exclusive offers in your inbox.</p>
+          <form class="newsletter-form">
+            <input type="email" placeholder="Your email address">
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    
+      <div class="footer-bottom">
+        <p>&copy; 2025 HairCare. All rights reserved.</p>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </footer>
+    
+    <script src="assets/js/Skin-care.js"></script>
+</body>
+</html>
